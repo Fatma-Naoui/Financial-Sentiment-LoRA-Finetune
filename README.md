@@ -40,7 +40,8 @@ The dataset is moderately imbalanced, with a dominance of neutral sentences.
 ## Addressing Class Imbalance  
 To prevent bias toward the majority (neutral) class, class imbalance was addressed using **class-weighted cross-entropy loss**.
 
-<p align="center"> <img src="https://latex.codecogs.com/png.image?\dpi{120}\large w_i=\frac{N}{k\times n_i}" alt="w_i = N / (k × n_i)"/> </p>
+w_i = N / (k × n_i)
+
 where  
 - \( N \) = total number of samples  
 - \( k \) = number of classes  
