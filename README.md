@@ -60,7 +60,7 @@ These weights are applied directly in the loss computation through a **custom `W
   - Dropout = 0.1  
   - Target Modules: `["q_lin", "v_lin"]` (DistilBERT attention layers)
 
-Only LoRA adapters are trained — the rest of the base model remains frozen, significantly reducing compute cost while retaining performance.
+Only LoRA adapters are trained,the rest of the base model remains frozen, significantly reducing compute cost while retaining performance.
 
 ---
 
