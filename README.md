@@ -25,7 +25,7 @@ This model is designed to capture subtle sentiment signals in finance-related te
 ---
 
 ## Dataset Summary  
-**Source:** [Financial PhraseBank - Sentences_AllAgree.txt](https://huggingface.co/datasets/hadyelsahar/financial_phrasebank)
+**Source:** [Financial PhraseBank - Sentences_AllAgree.txt](https://huggingface.co/datasets/takala/financial_phrasebank)
 
 | Sentiment | Samples | Percentage |
 |------------|----------|-------------|
